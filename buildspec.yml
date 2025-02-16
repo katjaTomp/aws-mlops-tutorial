@@ -3,8 +3,8 @@ version: 0.2
 env:
     variables:
         MY_AWS_REGION: "ap-south-1"
-        name: "mlops-aws"
-        CODEBUILD_BUILD_ID: "1"
+#        name: "mlops-aws"
+#        CODEBUILD_BUILD_ID: "1"
 
 
 
@@ -15,8 +15,8 @@ phases:
         commands:
             - echo "Running on $MY_AWS_REGION"
             - echo "hey welcome to AWS $name"
-            - echo "My code build id is $CODEBUILD_BUILD_ID"
-            - echo "My Golang version is $GOLANG_12_VERSIONGOLANG_12_VERSION"
+#            - echo "My code build id is $CODEBUILD_BUILD_ID"
+#            - echo "My Golang version is $GOLANG_12_VERSIONGOLANG_12_VERSION"
             - echo "Print Environment Variables"
             - printenv
             - echo "Start the installation process"
