@@ -38,3 +38,7 @@ phases:
         commands:
             - echo "We are currently on post_build phase"
             - echo "post_build phase activity is completed. Moving to Artifacts Phase"
+# Saves all the files in repository into the artifacts location if configured
+artifacts:
+    files:
+    - "**/*"
