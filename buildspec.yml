@@ -3,6 +3,9 @@ version: 0.2
 env:
     variables:
         MY_AWS_REGION: "ap-south-1"
+        name: "mlops-aws"
+        CODEBUILD_BUILD_ID: "1"
+
 
 
 phases: 
